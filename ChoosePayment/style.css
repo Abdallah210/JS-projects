@@ -37,6 +37,12 @@ label{
 .selected{
     margin: 25px;
     text-align:center;
-    background-color: antiquewhite;
+    background-color: rgb(199, 199, 199);
     height: 150px;
+}
+
+#image {
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    mix-blend-mode: color-burn;
 }
