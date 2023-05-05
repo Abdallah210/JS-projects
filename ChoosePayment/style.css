@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+  
+html{
+    scroll-behavior: smooth;
+}  
+  
+body{
+    background-color: #8fb1cb;
+    display: block;
+    justify-content: center;
+}
+
+
+label{
+    font-size: 20px;
+}
+
+#choose{
+    font-size: 35px;
+    display: block;
+    justify-content: center;
+    text-align:center;
+    margin: 25px;
+}
+
+#options{
+    margin: 25px;
+    text-align:center;
+}
+
+.selected{
+    margin: 25px;
+    text-align:center;
+    background-color: antiquewhite;
+    height: 150px;
+}

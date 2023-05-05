@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choose Payment</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <label id="choose">Choose your payment</label><br>
+
+    <form id="options">
+        <input type="radio" name="radio" id="mastercard" value="mastercard" onchange="ChangePhoto();">
+        <label for="mastercard">Mastercard</label>
+        <input type="radio" name="radio" id="visa" value="visa" onchange="ChangePhoto();">
+        <label for="visa">Visa</label>
+        <input type="radio" name="radio" id="paypal" value="paypal" onchange="ChangePhoto();">
+        <label for="paypal">Paypal</label>
+        <input type="radio" name="radio" id="other" value="other" onchange="ChangePhoto();" checked>
+        <label for="other">Other</label>
+    </form>
+
+    <div  class="selected"> 
+        <label>You are select : </label><br>
+        <img src="" alt="photo" id="image" hidden>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
