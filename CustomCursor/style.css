@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(34, 34, 34);
+    height: 100vh;
+}
+
+body:hover {
+    cursor: crosshair;
+}
+
+h1 {
+    color: rgb(222, 224, 225);
+    font-size: 2rem;
+
+}
